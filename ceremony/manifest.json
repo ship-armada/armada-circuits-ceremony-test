@@ -46,7 +46,25 @@
           }
         ]
       },
-      "contributions": []
+      "contributions": [
+        {
+          "index": 1,
+          "turn": 1,
+          "contributor": "iskay",
+          "zkeySha256": "7d1b954999786d3d8d80bbc3a647b4bfcf722c385e7c5a3df2322570577c4d1f",
+          "contributionHash": "1b1285fc8071956b8720f4986c68c6ee669891ddecebfbae23b8b5d5302dbd0a635dc54598849a84a5eaae89b5b4185f30985dc96ec525ceb46e2e7f64e0d9b3",
+          "mirrors": [
+            {
+              "kind": "fork",
+              "url": "https://github.com/iskay/armada-circuits-ceremony-test/releases/download/ceremony-turn-0001/1x1-0001-iskay.zkey"
+            }
+          ],
+          "toolVersion": "0.0.1",
+          "mode": "tool",
+          "attestation": "ceremony/attestations/turn-0001-iskay.json",
+          "timestamp": "2026-11-03T17:18:40.391Z"
+        }
+      ]
     },
     "1x2": {
       "r1csSha256": "bc794f5bc699e928f4db54c3e52369bb4582011683f667fb832f09d9341b5c87",
@@ -62,7 +80,25 @@
           }
         ]
       },
-      "contributions": []
+      "contributions": [
+        {
+          "index": 1,
+          "turn": 1,
+          "contributor": "iskay",
+          "zkeySha256": "4648520f16d7bfe623159fe538fa3eb58ea03f6961bf2537a25eb5a3973ef72a",
+          "contributionHash": "9807df338fac5b3058e1ae7a1cd53dfe07480507205fc0460a1dbc2dee0f3bb67ba0126664849873f3c1eafaf2a87d8ea79d6a0fe77b04f425879ffcb5bd0d20",
+          "mirrors": [
+            {
+              "kind": "fork",
+              "url": "https://github.com/iskay/armada-circuits-ceremony-test/releases/download/ceremony-turn-0001/1x2-0001-iskay.zkey"
+            }
+          ],
+          "toolVersion": "0.0.1",
+          "mode": "tool",
+          "attestation": "ceremony/attestations/turn-0001-iskay.json",
+          "timestamp": "2026-11-03T17:18:40.391Z"
+        }
+      ]
     },
     "2x2": {
       "r1csSha256": "b57e9c46042209ff79389849d9ab73a84213214beb12418a83e3a6dd9e8999d5",
@@ -78,7 +114,25 @@
           }
         ]
       },
-      "contributions": []
+      "contributions": [
+        {
+          "index": 1,
+          "turn": 1,
+          "contributor": "iskay",
+          "zkeySha256": "6a8bbc59cc5b09d9269537f022f91b7cac8d92419114311d73fe2dc2d14ba378",
+          "contributionHash": "6fa83d001ab653741917ef33b840c8a01f9198b14fdf7dc14e3ce855ade862f3b78951e317a0adc7f2698e31cdcf0fb40e4af801e9a4d7eb9a4ea00017de3e35",
+          "mirrors": [
+            {
+              "kind": "fork",
+              "url": "https://github.com/iskay/armada-circuits-ceremony-test/releases/download/ceremony-turn-0001/2x2-0001-iskay.zkey"
+            }
+          ],
+          "toolVersion": "0.0.1",
+          "mode": "tool",
+          "attestation": "ceremony/attestations/turn-0001-iskay.json",
+          "timestamp": "2026-11-03T17:18:40.391Z"
+        }
+      ]
     }
   }
 }

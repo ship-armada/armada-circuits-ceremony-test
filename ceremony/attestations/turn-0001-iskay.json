@@ -1,0 +1,27 @@
+{
+  "ceremony": "ship-armada/armada-circuits-ceremony-test",
+  "circuits": {
+    "1x1": {
+      "contributionHash": "1b1285fc8071956b8720f4986c68c6ee669891ddecebfbae23b8b5d5302dbd0a635dc54598849a84a5eaae89b5b4185f30985dc96ec525ceb46e2e7f64e0d9b3",
+      "previousZkeySha256": "cf6f8a32922f505bc65b3ae721c298ddbf8c77a8f43912a6c26609894e16e344",
+      "zkeySha256": "7d1b954999786d3d8d80bbc3a647b4bfcf722c385e7c5a3df2322570577c4d1f"
+    },
+    "1x2": {
+      "contributionHash": "9807df338fac5b3058e1ae7a1cd53dfe07480507205fc0460a1dbc2dee0f3bb67ba0126664849873f3c1eafaf2a87d8ea79d6a0fe77b04f425879ffcb5bd0d20",
+      "previousZkeySha256": "75dac909a7c0ae0cdd2db408ead10b6b0b038cfe3dc218d745745c25f2186a81",
+      "zkeySha256": "4648520f16d7bfe623159fe538fa3eb58ea03f6961bf2537a25eb5a3973ef72a"
+    },
+    "2x2": {
+      "contributionHash": "6fa83d001ab653741917ef33b840c8a01f9198b14fdf7dc14e3ce855ade862f3b78951e317a0adc7f2698e31cdcf0fb40e4af801e9a4d7eb9a4ea00017de3e35",
+      "previousZkeySha256": "814752fa667245202ec12cac0e6ee4e96a04bfcbb17624f5537a33aa99adab7c",
+      "zkeySha256": "6a8bbc59cc5b09d9269537f022f91b7cac8d92419114311d73fe2dc2d14ba378"
+    }
+  },
+  "contributor": "iskay",
+  "mode": "tool",
+  "statement": "I made this contribution with secret randomness that no one else saw. The secret existed only in the contribution process, which exited when it finished, and I kept no copy of it.",
+  "timestamp": "2026-11-03T17:18:40.391Z",
+  "toolVersion": "0.0.1",
+  "turn": 1,
+  "version": 1
+}
