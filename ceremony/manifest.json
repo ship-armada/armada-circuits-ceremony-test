@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "requiredToolVersion": "0.0.1",
+  "snarkjsVersion": "0.7.6",
+  "coordination": {
+    "repo": "ship-armada/armada-circuits-ceremony-test",
+    "queueIssue": 1,
+    "officialReleaseTag": "ceremony-zkeys"
+  },
+  "ptau": {
+    "sha256": "6b662a324867139fb1a20a324d90b6ff61856dfb23f59326909f14b0e2483ae0",
+    "blake2b": "6247a3433948b35fbfae414fa5a9355bfb45f56efa7ab4929e669264a0258976741dfbe3288bfb49828e5df02c2e633df38d2245e30162ae7e3bcca5b8b49345",
+    "power": 17,
+    "mirrors": [
+      "https://circom.info/powersOfTau28_hez_final_17.ptau"
+    ]
+  },
+  "window": {
+    "opens": "2026-11-03T17:00:00Z",
+    "closes": "2026-11-06T17:00:00Z"
+  },
+  "beacon": {
+    "type": "drand",
+    "chainHash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "round": 33728212,
+    "iterationsExp": 10
+  },
+  "policy": {
+    "minContributions": 3,
+    "minOutside": 0,
+    "minOutsideOrgs": 0,
+    "minByo": 1
+  },
+  "circuits": {
+    "1x1": {
+      "r1csSha256": "05d0fb64957030cf976ed25f4f94c22d5843ceeef5f90a8e5187a0ac2690fa78",
+      "wasmSha256": "17e11f880c7d8165716a1ced644f12168226f3536bbaf8162f4c74f6b6bb1f61",
+      "status": "open",
+      "openedAtTurn": 0,
+      "base": {
+        "zkeySha256": "cf6f8a32922f505bc65b3ae721c298ddbf8c77a8f43912a6c26609894e16e344",
+        "mirrors": [
+          {
+            "kind": "official",
+            "url": "https://github.com/ship-armada/armada-circuits-ceremony-test/releases/download/ceremony-zkeys/1x1-0000.zkey"
+          }
+        ]
+      },
+      "contributions": []
+    },
+    "1x2": {
+      "r1csSha256": "bc794f5bc699e928f4db54c3e52369bb4582011683f667fb832f09d9341b5c87",
+      "wasmSha256": "b48679b330c75b3d22397d67c4d11883e4f94b811a351ada90d18b62489220be",
+      "status": "open",
+      "openedAtTurn": 0,
+      "base": {
+        "zkeySha256": "75dac909a7c0ae0cdd2db408ead10b6b0b038cfe3dc218d745745c25f2186a81",
+        "mirrors": [
+          {
+            "kind": "official",
+            "url": "https://github.com/ship-armada/armada-circuits-ceremony-test/releases/download/ceremony-zkeys/1x2-0000.zkey"
+          }
+        ]
+      },
+      "contributions": []
+    },
+    "2x2": {
+      "r1csSha256": "b57e9c46042209ff79389849d9ab73a84213214beb12418a83e3a6dd9e8999d5",
+      "wasmSha256": "e7aca1effbc1ef0f9302209be7eb2621fbf37d323cc9c2465956785cc34f3340",
+      "status": "open",
+      "openedAtTurn": 0,
+      "base": {
+        "zkeySha256": "814752fa667245202ec12cac0e6ee4e96a04bfcbb17624f5537a33aa99adab7c",
+        "mirrors": [
+          {
+            "kind": "official",
+            "url": "https://github.com/ship-armada/armada-circuits-ceremony-test/releases/download/ceremony-zkeys/2x2-0000.zkey"
+          }
+        ]
+      },
+      "contributions": []
+    }
+  }
+}
